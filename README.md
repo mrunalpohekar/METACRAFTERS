@@ -21,35 +21,4 @@ We have to use remixIDE to compile and run and deploy the program.
 * THEN TO BURN SOME TOKENS WE WILL CLICK ON BURN AND THEN PASTE ACCOUNT ADDRESS THEN SET THE VALUE TO 70 (70 TOKENS WILL BE BURNT FROM OUR ACCOUNT)
 * TO CHECK BALANCE AGAIN PRESS ON CALL WE WILL GET THE LATEST BALANCE. 200-70=130 (130 WILL BE THE LATEST BALANCE).
 * THIS IS ALL FOR THE CONTRACT.
-
-
-## CONTRACT 
-
-// SPDX-License-Identifier: MIT
-pragma solidity 0.8.18;
-
-
-contract MyToken {
-
-    // public variables here
-   string public tokenName ="MRUNAL";
-   string public tokenAbbvr= "MRU";
-   uint public totalSupply=0;
-    // mapping variable here
-   mapping(address=> uint) public balances;
-    // mint function
-
-   function mint (address _address, uint _value) public {
-    totalSupply +=_value;
-    balances[_address] += _value;
-   }
-    // burn function
-   function burn (address _address,uint _value) public {
-       if(balances[_address]>=_value)
-       {
-         totalSupply -=_value;
-         balances[_address] -= _value;
-       }
-    
-   }
-}
+   
