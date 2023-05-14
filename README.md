@@ -1,11 +1,11 @@
-## MY TOKEN.SOL
-This is a basic Solidity smart contract for a token called "MyToken". 
+## TOKEN.SOL
+This is a basic Solidity smart contract for a token called "Token". 
 
 ## DESCIRPTION
-The code is a Solidity smart contract for a basic token called "MyToken". It also has two public variables for the token name and abbreviation, and a total supply variable. It also has a mapping variable called "balances" which maps addresses to their token balances.
+The code is a Solidity smart contract. It also has two public variables for the token name and abbreviation, and a total supply variable. It also has a mapping variable called "balances" which maps addresses to their token balances.
 This contract has two functions called "mint" and "burn". The "mint" function  adds the given value to the balance of the specified address. The "burn" function  reduces the balance of the specified address by the given value, but only if the address has sufficient balance.
 
-## GETTING STARTED
+## COMPILER TO USE
 We have to use remixIDE to compile and run and deploy the program.
 
 ## EXECUTING THE PROGRAM
