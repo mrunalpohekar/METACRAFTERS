@@ -6,7 +6,7 @@ The code represents a Solidity smart contract featuring two public variables for
 Furthermore, this contract encompasses two functions named "mint" and "burn." The "mint" function is responsible for augmenting the balance of a specified address by a given value. Conversely, the "burn" function reduces the balance of the specified address by a given value, subject to the condition that the address possesses an adequate balance to facilitate the requested reduction.
 
 ## COMPILER TO USE
-We have to use remixIDE to compile and run and deploy the program.
+Use remixIDE to compile/run and deploy the program.
 
 ## EXECUTING THE PROGRAM
 * Create a new folder called "mytoken.sol."
